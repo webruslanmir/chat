@@ -33,3 +33,6 @@
 * Будут реализованы тесты
 
 По всем дополнительным вопросам пишите на webruslanmir@gmail.com
+
+### Пока набросок параметров запуска ###
+    docker run -p 6379:6379 --name webchat-redis -d redis:latest -v data:/data
